@@ -19,7 +19,8 @@ This project focuses on identifying and classifying crops and weeds using object
   - `weed`
 
 ## 📁 Dataset
-
+- Link - https://www.kaggle.com/datasets/himanshuraj56256/dataset
+- 
 - Structured in YOLO format:
   ```
   dataset/
@@ -37,23 +38,8 @@ This project focuses on identifying and classifying crops and weeds using object
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/crop-weed-detection.git
-   cd crop-weed-detection
-   ```
-
-2. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Train the model**  
-   ```bash
-   yolo task=detect mode=train data=dataset/data.yaml model=yolov8n.pt epochs=50 imgsz=640
-   ```
-
-4. **Run inference**  
-   ```bash
-   yolo task=detect mode=predict model=runs/detect/train/weights/best.pt source=sample_image.jpg
+   git clone https://github.com/himaenshuu/crop_weed_classification.git
+   cd crop_weed_classification
    ```
 
 ## 📊 Evaluation Metrics
